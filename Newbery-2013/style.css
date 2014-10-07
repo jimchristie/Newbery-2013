@@ -1,0 +1,67 @@
+/*
+Theme Name:     2013 Newbery
+Theme URI:      http://www.dbrl.org
+Description:    Child theme for the newbery.dbrl.org based on Twenty Thirteen theme
+Author:         Jim Christie
+Template:       twentythirteen
+Version:        0.1.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+.entry-meta .categories-links {
+	display: none;
+}
+
+.call_number, .on_order {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.call_number {
+	background-color: #fffea5;
+}
+
+.on_order {
+	background-color: #aa2200;
+	color: #fff;
+}
+
+/* for image/title pairs on "2013 Overview" page */
+.image_title {
+	width: 40%;
+	margin-right: 4.5%;
+	margin-left: 4.5%;
+	margin-bottom: 1em;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.widget {
+	background-color: #F5F5E7;
+}
+
+.widget .book_list ol {
+	list-style-type: decimal;
+	margin-left: 20px;
+}
+
+.widget .book_list li {
+	padding: 0;
+}
+
+.category-archive .entry-header .entry-title {
+	font-size: 32px;
+}
+
+.category-archive .entry-header .entry-meta {
+	display: none;
+}
+
+.site-info a {
+	display: none;
+}
+
+.entry-content img.alignleft {
+    margin-left: 0;
+}
